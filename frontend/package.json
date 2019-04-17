@@ -1,0 +1,30 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "rm -rf ../public/{js,css,img} && vue-cli-service build --no-clean"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.1",
+    "@websanova/vue-auth": "^2.21.14-beta",
+    "axios": "^0.18.0",
+    "buefy": "^0.7.4",
+    "bulma": "^0.7.4",
+    "core-js": "^2.6.5",
+    "moment": "^2.24.0",
+    "vue": "^2.6.10",
+    "vue-axios": "^2.1.4",
+    "vue-content-placeholders": "^0.2.1",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.6.0",
+    "@vue/cli-service": "^3.6.0",
+    "sass": "^1.18.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
